@@ -21,13 +21,13 @@
 
 /* Typography */
 .lg-title {
-  /* line-height: 4rem; */
+  line-height: 4rem;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
 .md-title {
-  /* line-height: 4rem; */
+  line-height: 4rem;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -39,17 +39,24 @@
 }
 
 .sm-text {
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-size: 1rem;
   font-weight: 300;
 }
 
 .xs-text {
-  /* line-height: 4rem; */
+  line-height: 2rem;
   font-size: 0.75rem;
   font-weight: 100;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
+p {
+  line-height: 2rem;
+}
 /* Imagery */
 
 /* Media Query */
