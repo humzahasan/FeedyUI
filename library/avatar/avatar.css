@@ -1,0 +1,67 @@
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 9rem;
+  height: 9rem;
+}
+
+.avatar-lg {
+  width: 9rem;
+  height: 9rem;
+}
+
+.avatar-md {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-sm {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  background-color: var(--bg-light-color);
+  border-radius: 50%;
+}
+
+.avatar-letter-lg {
+  width: 9rem;
+  height: 9rem;
+  font-size: 4rem;
+}
+
+.avatar-letter-md {
+  font-size: 2rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-letter-sm {
+  font-size: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.active {
+  border: 2px solid green;
+}
+
+.inactive {
+  border: 2px solid grey;
+}
+
+.busy {
+  border: 2px solid red;
+}
+
+.avatar:hover,
+.avatar-letter:hover {
+  box-shadow: 2px 2px 2px grey;
+  border: 2px solid;
+  opacity: 0.8;
+}

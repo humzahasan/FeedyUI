@@ -1,0 +1,70 @@
+/* Importing Font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+/* Reset CSS */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Style Guide*/
+
+/* Color */
+:root {
+  --primary-color: #fc8019;
+  --secondary-color: #2a2c35;
+  --text-light-color: #ebeef7;
+  --text-dark-color: #0b0c13;
+  --bg-light-color: #f7eee9;
+  --bg-dark-color: #35302c;
+}
+
+/* Typography */
+.lg-title {
+  /* line-height: 4rem; */
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.md-title {
+  /* line-height: 4rem; */
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.md-text {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.sm-text {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.xs-text {
+  /* line-height: 4rem; */
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+
+/* Imagery */
+
+/* Media Query */
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  :root {
+    font-size: 30%;
+  }
+}
+/* Grid System */
+
+/* Animations */

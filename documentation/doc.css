@@ -1,0 +1,19 @@
+@import url(../library/lib.css);
+
+iframe {
+  width: 100%;
+}
+
+.avatar-container {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.image-avatar,
+.letter-avatar,
+.status-avatar {
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}

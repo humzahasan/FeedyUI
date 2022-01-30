@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./documentation/doc.css" />
+    <title>FeedyUI - Component Library</title>
+  </head>
+  <body>
+    <iframe
+      id="avatar-iframe"
+      src="./documentation/avatar.html"
+      frameborder="0"
+      scrolling="no"
+      onload="resizeIframe(this)"
+    ></iframe>
+    <script>
+      function resizeIframe(obj) {
+        obj.style.height =
+          obj.contentWindow.document.documentElement.scrollHeight + "px";
+      }
+    </script>
+  </body>
+</html>
