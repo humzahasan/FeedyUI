@@ -5,9 +5,14 @@ iframe {
 }
 
 .avatar-container,
-.alert-container {
+.alert-container,
+.badge-container {
   padding: 2rem;
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-avatar,
@@ -16,11 +21,13 @@ iframe {
   margin: 1rem 0;
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
-.filled-alert,
-.outline-alert,
-.dismisable-alert {
+.filled-alert-section,
+.outline-alert-section,
+.dismisable-alert-section,
+.badge-icon-container,
+.badge-avatar-container {
   margin: 1rem 0;
 }
