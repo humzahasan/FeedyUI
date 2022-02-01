@@ -1,0 +1,35 @@
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-square {
+  border-radius: 50%;
+}
+
+.image-sm {
+  width: 5rem;
+  height: 5rem;
+}
+
+.image-md {
+  width: 10rem;
+  height: 10rem;
+}
+
+.image-lg {
+  width: 15rem;
+  height: 15rem;
+}
+
+.image-xl {
+  width: 20rem;
+  height: 20rem;
+}
+
+.image:hover {
+  border: 1px solid var(--primary-color);
+  box-shadow: 1px 1px 1px var(--primary-color);
+  opacity: 0.8;
+}
