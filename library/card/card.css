@@ -1,0 +1,161 @@
+.card {
+  width: 20rem;
+  /* height: 35rem; */
+  padding: 1rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.card-sm {
+  height: 15rem;
+}
+
+.card-md {
+  height: 25rem;
+}
+
+.card-lg {
+  height: 35rem;
+}
+
+.card-xl {
+  height: 45rem;
+}
+
+.card-auto {
+  width: auto;
+  height: auto;
+}
+
+.card-square {
+  height: 15rem;
+  width: 15rem;
+}
+
+.card:hover {
+  box-shadow: 3px 2px 5px #fc7f194b;
+}
+
+.card-dismisable {
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  padding: 0.5rem;
+}
+
+.card-dismisable:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-badge {
+  position: relative;
+}
+
+.card-badge-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 0.25rem;
+  background-color: var(--primary-color);
+}
+
+.card-media {
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  /* transition: 0.1s ease; */
+}
+
+.overlay-hover {
+  opacity: 0;
+}
+
+.overlay-hover:hover {
+  opacity: 0.7;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 900;
+}
+
+.overlay-always {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-content {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-action > i {
+  font-size: 2rem;
+}
+
+.card-action > i:hover {
+  color: var(--primary-color);
+}
+
+.card-horizontal {
+  flex-direction: row;
+  /* width: auto; */
+}
+
+.card-horizontal .card-media {
+  margin: 0.25rem;
+}
+
+.card-horizontal .card-media > img {
+  width: 10rem;
+}
+
+.card-action-horizontal {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.card-action-horizontal i {
+  font-size: 2rem;
+}
+
+.card-action-horizontal i:hover {
+  color: var(--primary-color);
+}

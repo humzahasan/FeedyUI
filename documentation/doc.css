@@ -6,7 +6,9 @@ iframe {
 
 .avatar-container,
 .alert-container,
-.badge-container {
+.badge-container,
+.card-container,
+.image-container {
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -27,7 +29,14 @@ iframe {
 .filled-alert-section,
 .outline-alert-section,
 .dismisable-alert-section,
-.badge-icon-container,
-.badge-avatar-container {
+.badge-icon-section,
+.badge-avatar-section {
   margin: 1rem 0;
+}
+
+.card-overall-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
