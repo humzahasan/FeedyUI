@@ -47,7 +47,7 @@
 .xs-text {
   line-height: 2rem;
   font-size: 0.75rem;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 .bold-text {
@@ -56,6 +56,13 @@
 
 p {
   line-height: 2rem;
+}
+
+.cta-text {
+  background-color: var(--primary-color);
+  color: var(--text-dark-color);
+  font-weight: 800;
+  padding: 0.2rem;
 }
 /* Imagery */
 
