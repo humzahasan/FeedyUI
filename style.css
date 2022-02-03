@@ -27,9 +27,15 @@
   margin: 0.5rem;
 }
 
+.home-navitem > a {
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+
 .home-navitem:hover {
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
+  font-weight: 500;
 }
 
 .home-navitem.home-navitem-active {
@@ -90,9 +96,9 @@
   color: #ebeef7;
 }
 
-a {
+.home-footer > h3 a {
   text-decoration: none;
-  color: #ebeef7;
+  color: white;
 }
 
 /* Media Query */
