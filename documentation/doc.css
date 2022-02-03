@@ -48,6 +48,7 @@ iframe {
   justify-content: flex-end;
   width: 50%;
 }
+
 .section-left {
   display: flex;
   flex-direction: column;

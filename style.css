@@ -1,0 +1,123 @@
+@import url(./library/lib.css);
+
+.home-logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.home-nav {
+  background-color: #f7eee9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-navlist {
+  display: flex;
+  padding: 1rem;
+}
+
+.home-navitem {
+  margin: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.home-navitem > i {
+  margin: 0.5rem;
+}
+
+.home-navitem:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.home-navitem.home-navitem-active {
+  border-bottom: 1px solid var(--primary-color);
+}
+/* 
+.home-hero > img {
+  height: 20rem;
+  width: 20rem;
+} */
+
+.home-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-hero-right,
+.home-hero-left {
+  padding: 2rem;
+  width: 50%;
+  margin: 5rem;
+}
+
+.home-hero-right > h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.home-hero-right > h3 {
+  font-size: 1.5rem;
+}
+
+.home-installation {
+  background-color: #f7eee9;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-installation > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 2rem;
+}
+
+.home-installation > div > div {
+  width: 100%;
+}
+
+.home-footer {
+  text-align: center;
+  padding: 3rem;
+  background-color: #35302c;
+  color: #ebeef7;
+}
+
+a {
+  text-decoration: none;
+  color: #ebeef7;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-hero-left {
+    display: none;
+  }
+  .home-hero-left img {
+    display: none;
+  }
+
+  .home-hero-right {
+    background-color: #fd88286c;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-hero-left {
+    display: none;
+  }
+}
