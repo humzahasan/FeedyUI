@@ -32,7 +32,7 @@
   color: var(--text-dark-color);
 }
 
-.home-navitem:hover {
+.home-navitem > a:hover {
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
   font-weight: 500;
