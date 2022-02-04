@@ -97,3 +97,10 @@
 .btn-icon > i {
   margin: 0.25rem;
 }
+
+.btn-2x {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
