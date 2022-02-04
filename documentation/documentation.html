@@ -15,7 +15,7 @@
     <title>FeedyUI - Component Library</title>
   </head>
   <body>
-    <!-- <iframe
+    <iframe
       id="alert-iframe"
       src="./alert.html"
       frameborder="0"
@@ -35,7 +35,7 @@
       frameborder="0"
       scrolling="no"
       onload="resizeIframe(this)"
-    ></iframe> -->
+    ></iframe>
     <iframe
       id="button-iframe"
       src="./button.html"
@@ -43,7 +43,7 @@
       scrolling="no"
       onload="resizeIframe(this)"
     ></iframe>
-    <!-- <iframe
+    <iframe
       id="card-iframe"
       src="./card.html"
       frameborder="0"
@@ -63,8 +63,11 @@
       frameborder="0"
       scrolling="no"
       onload="resizeIframe(this)"
-    ></iframe> -->
+    ></iframe>
     <script>
+      setTimeout(() => {
+        console.log(document.querySelectorAll(".carbon-iframe"));
+      }, 0);
       function resizeIframe(obj) {
         obj.style.height =
           obj.contentWindow.document.documentElement.scrollHeight + "px";
