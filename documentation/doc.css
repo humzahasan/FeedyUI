@@ -1,15 +1,12 @@
 @import url(../library/lib.css);
 
-iframe {
-  width: 100%;
-}
-
 .avatar-container,
 .alert-container,
 .badge-container,
 .card-container,
 .image-container,
-.input-container {
+.input-container,
+.button-container {
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -24,7 +21,6 @@ iframe {
   margin: 1rem 0;
   display: flex;
   align-items: flex-end;
-  /* justify-content: space-around; */
 }
 
 .filled-alert-section,
@@ -43,19 +39,72 @@ iframe {
   flex-wrap: wrap;
 }
 
-.input-box-section {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
+/**/
+
+.doc-page {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header header "
+    "aside main "
+    "aside main "
+    "aside main ";
+  grid-template-columns: 1fr 2fr;
 }
 
-.section-left {
+.doc-header {
+  grid-area: header;
+}
+
+.doc-aside {
+  position: sticky;
+  grid-area: aside;
+}
+
+.doc-main {
+  grid-area: main;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
 }
 
-.section-right {
-  width: 100%;
+.doc-nav {
+  background-color: #f7eee9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-navlist {
+  display: flex;
+  padding: 1rem;
+}
+
+.doc-navitem {
+  margin: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.doc-navitem > i {
+  margin: 0.5rem;
+}
+
+.doc-navitem > a {
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+
+.doc-navitem > a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  font-weight: 500;
+}
+
+.doc-navitem.doc-navitem-active {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.doc-logo {
+  height: 5rem;
+  width: 5rem;
 }

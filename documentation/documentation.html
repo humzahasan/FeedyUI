@@ -15,48 +15,94 @@
     <title>FeedyUI - Component Library</title>
   </head>
   <body>
-    <iframe
-      id="avatar-iframe"
-      src="./avatar.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
-    <iframe
-      id="alert-iframe"
-      src="./alert.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
-    <iframe
-      id="badge-iframe"
-      src="./badge.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
-    <iframe
-      id="card-iframe"
-      src="./card.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
-    <iframe
-      id="image-iframe"
-      src="./image.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
-    <iframe
-      id="input-iframe"
-      src="./input.html"
-      frameborder="0"
-      scrolling="no"
-      onload="resizeIframe(this)"
-    ></iframe>
+    <div class="doc-page">
+      <header class="doc-header">
+        <nav class="doc-nav">
+          <a href="/"
+            ><img class="doc-logo" src="./assets/logo.png" alt="logo"
+          /></a>
+          <ul class="doc-navlist">
+            <li class="doc-navitem">
+              <i class="fas fa-atlas"></i>
+              <a href="./documentation.html">Documentation</a>
+            </li>
+            <li class="doc-navitem">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/humzahasan/FeedyUI/tree/development">
+                Source Code</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <aside class="doc-aside">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          sequi fuga at molestias laborum? Molestiae aspernatur perferendis
+          harum iusto blanditiis, eius alias ea recusandae adipisci dicta ipsa
+          impedit, sint provident! Sint expedita molestiae, exercitationem
+          pariatur nostrum ab recusandae distinctio optio esse, corporis
+          aspernatur voluptates voluptatum reprehenderit neque praesentium
+          veniam sunt consequatur sapiente nulla tenetur quo. Deleniti sit nam
+          debitis excepturi? Laboriosam sint sequi explicabo illo exercitationem
+          neque ipsam labore, possimus id adipisci minus quidem iste est
+          eligendi molestiae perspiciatis iusto! Adipisci eum perferendis
+          delectus hic pariatur dolores iusto eaque in!
+        </div>
+      </aside>
+
+      <main class="doc-main">
+        <iframe
+          id="alert-iframe"
+          src="./alert.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="avatar-iframe"
+          src="./avatar.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="badge-iframe"
+          src="./badge.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="button-iframe"
+          src="./button.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="card-iframe"
+          src="./card.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="image-iframe"
+          src="./image.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          id="input-iframe"
+          src="./input.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+      </main>
+    </div>
     <script>
       function resizeIframe(obj) {
         obj.style.height =
