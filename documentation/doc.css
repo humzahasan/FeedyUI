@@ -1,9 +1,5 @@
 @import url(../library/lib.css);
 
-iframe {
-  width: 100%;
-}
-
 .avatar-container,
 .alert-container,
 .badge-container,
@@ -59,4 +55,76 @@ iframe {
 
 .section-right {
   width: 100%;
+}
+
+/**/
+
+.doc-page {
+  /* background-color: aqua; */
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header header header header"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main";
+  grid-template-columns: 1fr 2fr;
+}
+
+.doc-header {
+  grid-area: header;
+}
+
+.doc-aside {
+  /* background-color: red; */
+  position: sticky;
+  grid-area: aside;
+}
+
+.doc-main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-nav {
+  background-color: #f7eee9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-navlist {
+  display: flex;
+  padding: 1rem;
+}
+
+.doc-navitem {
+  margin: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.doc-navitem > i {
+  margin: 0.5rem;
+}
+
+.doc-navitem > a {
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+
+.doc-navitem > a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  font-weight: 500;
+}
+
+.doc-navitem.doc-navitem-active {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.doc-logo {
+  height: 5rem;
+  width: 5rem;
 }
