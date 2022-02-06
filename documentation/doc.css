@@ -6,21 +6,27 @@
 .card-container,
 .image-container,
 .input-container,
-.button-container {
+.button-container,
+.typography-container {
   padding: 2rem;
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgba(230, 149, 84, 0.329);
+  border-radius: 5px;
 }
 
 .image-avatar,
 .letter-avatar,
 .status-avatar {
-  margin: 1rem 0;
+  border: 1px solid rgba(230, 149, 84, 0.329);
+  padding: 1rem;
+  margin: 1rem;
   display: flex;
   align-items: flex-end;
+  border-radius: 5px;
 }
 
 .filled-alert-section,
@@ -28,8 +34,13 @@
 .dismisable-alert-section,
 .badge-icon-section,
 .badge-avatar-section,
-.responsive-image-section {
-  margin: 1rem 0;
+.responsive-image-section,
+.typography-example-text,
+.typography-example-heading,
+.button-container-example {
+  border: 1px solid rgba(230, 149, 84, 0.329);
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .card-overall-section {
