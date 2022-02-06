@@ -12,7 +12,8 @@
 /* Color */
 :root {
   --primary-color: #fc8019;
-  --secondary-color: #2a2c35;
+  --primary-color-light: #f79c52c5;
+  --secondary-color: #fc7f197c;
   --text-light-color: #ebeef7;
   --text-dark-color: #0b0c13;
   --bg-light-color: #f7eee9;

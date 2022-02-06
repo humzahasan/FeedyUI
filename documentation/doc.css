@@ -6,7 +6,9 @@
 .card-container,
 .image-container,
 .input-container,
-.button-container {
+.button-container,
+.typography-container,
+.list-container {
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -28,8 +30,14 @@
 .dismisable-alert-section,
 .badge-icon-section,
 .badge-avatar-section,
-.responsive-image-section {
-  margin: 1rem 0;
+.responsive-image-section,
+.typography-example-text,
+.typography-example-heading,
+.button-container-example,
+.normal-list-section {
+  border: 1px solid rgba(230, 149, 84, 0.329);
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .card-overall-section {
@@ -107,4 +115,11 @@
 .doc-logo {
   height: 5rem;
   width: 5rem;
+}
+
+.doc-nav-menu {
+  position: sticky;
+  top: 0;
+  margin: 1rem;
+  padding: 1rem;
 }
