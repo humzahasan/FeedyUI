@@ -36,7 +36,14 @@
         </nav>
       </header>
       <aside class="doc-aside">
-        <div class="doc-nav-menu"></div>
+        <div class="doc-nav-menu">
+          <div class="list list-menu">
+            <p class="list-item"><a href="#avatar-iframe"> Wraps </a></p>
+            <p class="list-item"><a href="#button-iframe"> Pizza </a></p>
+            <p class="list-item"><a href=""> Burger </a></p>
+            <p class="list-item"><a href=""> French Fries </a></p>
+          </div>
+        </div>
       </aside>
 
       <main class="doc-main">
@@ -92,6 +99,14 @@
           loading="lazy"
           id="input-iframe"
           src="./input.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          loading="lazy"
+          id="list-iframe"
+          src="./list.html"
           frameborder="0"
           scrolling="no"
           onload="resizeIframe(this)"
