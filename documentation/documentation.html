@@ -36,18 +36,13 @@
         </nav>
       </header>
       <aside class="doc-aside">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          sequi fuga at molestias laborum? Molestiae aspernatur perferendis
-          harum iusto blanditiis, eius alias ea recusandae adipisci dicta ipsa
-          impedit, sint provident! Sint expedita molestiae, exercitationem
-          pariatur nostrum ab recusandae distinctio optio esse, corporis
-          aspernatur voluptates voluptatum reprehenderit neque praesentium
-          veniam sunt consequatur sapiente nulla tenetur quo. Deleniti sit nam
-          debitis excepturi? Laboriosam sint sequi explicabo illo exercitationem
-          neque ipsam labore, possimus id adipisci minus quidem iste est
-          eligendi molestiae perspiciatis iusto! Adipisci eum perferendis
-          delectus hic pariatur dolores iusto eaque in!
+        <div class="doc-nav-menu">
+          <div class="list list-menu">
+            <p class="list-item"><a href="#avatar-iframe"> Wraps </a></p>
+            <p class="list-item"><a href="#button-iframe"> Pizza </a></p>
+            <p class="list-item"><a href=""> Burger </a></p>
+            <p class="list-item"><a href=""> French Fries </a></p>
+          </div>
         </div>
       </aside>
 
@@ -104,6 +99,22 @@
           loading="lazy"
           id="input-iframe"
           src="./input.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          loading="lazy"
+          id="list-iframe"
+          src="./list.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <iframe
+          loading="lazy"
+          id="typography-iframe"
+          src="./textstyle.html"
           frameborder="0"
           scrolling="no"
           onload="resizeIframe(this)"
