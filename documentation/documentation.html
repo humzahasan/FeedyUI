@@ -37,17 +37,22 @@
       </header>
       <aside class="doc-aside">
         <div class="doc-nav-menu">
-          <div class="list list-menu">
-            <p class="list-item"><a href="#avatar-iframe"> Wraps </a></p>
-            <p class="list-item"><a href="#button-iframe"> Pizza </a></p>
-            <p class="list-item"><a href=""> Burger </a></p>
-            <p class="list-item"><a href=""> French Fries </a></p>
+          <div class="list list-vertical">
+            <a class="list-item" href="#alert-iframe"> Alert</a>
+            <a class="list-item" href="#avatar-iframe"> Avatar</a>
+            <a class="list-item" href="#badge-iframe"> Badge</a>
+            <a class="list-item" href="#button-iframe"> Button</a>
+            <a class="list-item" href="#card-iframe"> Card</a>
+            <a class="list-item" href="#image-iframe"> Image</a>
+            <a class="list-item" href="#input-iframe"> Input</a>
+            <a class="list-item" href="#list-iframe"> List</a>
+            <a class="list-item" href="#typography-iframe"> Typography</a>
           </div>
         </div>
       </aside>
 
       <main class="doc-main">
-        <iframe
+        <!-- <iframe
           loading="lazy"
           id="alert-iframe"
           src="./alert.html"
@@ -115,6 +120,14 @@
           loading="lazy"
           id="typography-iframe"
           src="./textstyle.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe> -->
+        <iframe
+          loading="lazy"
+          id="typography-iframe"
+          src="./grid.html"
           frameborder="0"
           scrolling="no"
           onload="resizeIframe(this)"

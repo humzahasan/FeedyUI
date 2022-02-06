@@ -38,12 +38,8 @@
 .responsive-image-section,
 .typography-example-text,
 .typography-example-heading,
-<<<<<<< HEAD
 .button-container-example,
 .normal-list-section {
-=======
-.button-container-example {
->>>>>>> 23f2b07168720ecd654a5dea3e75e85ab7d0e1c6
   border: 1px solid rgba(230, 149, 84, 0.329);
   padding: 1rem;
   margin: 1rem;
@@ -54,6 +50,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.grid-item {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--primary-color-light);
 }
 
 /**/
