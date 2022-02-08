@@ -6,21 +6,35 @@
 .card-container,
 .image-container,
 .input-container,
-.button-container {
+.button-container,
+.typography-container,
+.list-container {
   padding: 2rem;
   margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+}
+
+.grid-container {
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
 }
 
 .image-avatar,
 .letter-avatar,
 .status-avatar {
-  margin: 1rem 0;
+  border: 1px solid var(--light-color);
+  padding: 1rem;
+  margin: 1rem;
   display: flex;
   align-items: flex-end;
+  border-radius: 5px;
 }
 
 .filled-alert-section,
@@ -28,8 +42,14 @@
 .dismisable-alert-section,
 .badge-icon-section,
 .badge-avatar-section,
-.responsive-image-section {
-  margin: 1rem 0;
+.responsive-image-section,
+.typography-example-text,
+.typography-example-heading,
+.button-container-example,
+.normal-list-section {
+  border: 1px solid rgba(230, 149, 84, 0.329);
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .card-overall-section {
@@ -37,6 +57,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.grid-item {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: var(--primary-color-light);
 }
 
 /**/
@@ -107,4 +133,11 @@
 .doc-logo {
   height: 5rem;
   width: 5rem;
+}
+
+.doc-nav-menu {
+  position: sticky;
+  top: 0;
+  margin: 1rem;
+  padding: 1rem;
 }

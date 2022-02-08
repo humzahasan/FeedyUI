@@ -1,0 +1,29 @@
+.list {
+  background-color: var(--bg-light-color);
+  margin: 1rem;
+}
+
+.list-inline {
+  display: inline-block;
+}
+
+.list-item {
+  text-decoration: none;
+  color: var(--text-dark-color);
+  padding: 1rem;
+}
+
+.list-item > a {
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+
+.list-item:hover {
+  background-color: var(--primary-color-light);
+  font-weight: 500;
+}
+
+.list-vertical {
+  display: flex;
+  flex-direction: column;
+}
