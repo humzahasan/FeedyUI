@@ -46,6 +46,7 @@
             <a class="list-item" href="#image-iframe"> Image</a>
             <a class="list-item" href="#input-iframe"> Input</a>
             <a class="list-item" href="#list-iframe"> List</a>
+            <a class="list-item" href="#nav-iframe"> Navigation</a>
             <hr />
             <a class="list-item" href="#typography-iframe"> Typography</a>
             <a class="list-item" href="#grid-iframe"> Grid Layout</a>
@@ -55,6 +56,14 @@
 
       <main class="doc-main">
         <iframe
+          loading="lazy"
+          id="nav-iframe"
+          src="./navigation-tabs.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+        <!-- <iframe
           loading="lazy"
           id="alert-iframe"
           src="./alert.html"
@@ -133,7 +142,7 @@
           frameborder="0"
           scrolling="no"
           onload="resizeIframe(this)"
-        ></iframe>
+        ></iframe> -->
       </main>
     </div>
     <script>

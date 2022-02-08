@@ -19,7 +19,14 @@
   border-radius: 5px;
 }
 
-.grid-container {
+.nav-container {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.grid-container,
+.basic-nav-section {
   padding: 2rem;
   margin: 2rem;
   border: 1px solid var(--light-color);
