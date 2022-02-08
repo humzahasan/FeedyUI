@@ -15,14 +15,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(230, 149, 84, 0.329);
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
+}
+
+.grid-container {
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px solid var(--light-color);
   border-radius: 5px;
 }
 
 .image-avatar,
 .letter-avatar,
 .status-avatar {
-  border: 1px solid rgba(230, 149, 84, 0.329);
+  border: 1px solid var(--light-color);
   padding: 1rem;
   margin: 1rem;
   display: flex;
