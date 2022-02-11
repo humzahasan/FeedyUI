@@ -30,7 +30,7 @@
 }
 
 .input-success {
-  border: 2px solid rgba(0, 128, 0, 0.5);
+  border: 2px solid var(--success-color);
 }
 
 .input-warning {
@@ -38,5 +38,5 @@
 }
 
 .input-danger {
-  border: 2px solid rgba(255, 0, 0, 0.5);
+  border: 2px solid var(--danger-color);
 }
