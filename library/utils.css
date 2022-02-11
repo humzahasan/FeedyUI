@@ -19,6 +19,10 @@
   --bg-light-color: #f7eee9;
   --bg-dark-color: #35302c;
   --light-color: #e6955454;
+  --success-color: #00800080;
+  --danger-color: #ff000080;
+  --white-color: #ffff;
+  --black-color: #0000;
 }
 
 /* Typography */
