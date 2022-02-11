@@ -1,0 +1,30 @@
+.stars {
+  height: 10rem;
+  text-align: center;
+}
+
+.stars input {
+  display: none;
+}
+
+.stars label {
+  float: right;
+  font-size: 4rem;
+  color: var(--white-color);
+  margin: 0 0.5rem;
+  text-shadow: 2px 2px 2px var(--primary-color);
+}
+
+.stars label:before {
+  content: "★";
+}
+
+.stars input:checked ~ label {
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--primary-color-light);
+}
+
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label {
+  color: var(--primary-color-light);
+}
