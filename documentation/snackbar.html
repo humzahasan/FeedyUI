@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./doc.css" />
+    <title>Snackbar</title>
+  </head>
+  <body>
+    <div class="snackbar-container">
+      <h1 class="lg-title">Snackbar</h1>
+      <p class="sm-text">
+        Buttons allow users to take actions, and make choices, with a single
+        tap.
+      </p>
+      <button
+        id="openSnack"
+        class="btn btn-primary"
+        onclick="showSnackBar('openSnack','snackbar1')"
+      >
+        Show Snackbar
+      </button>
+
+      <div class="snackbar snackbar-default" id="snackbar1">
+        Some text some message..
+      </div>
+      <div class="snackbar snackbar-success snackbar-center" id="snackbar1">
+        Some text some message..
+      </div>
+      <div class="snackbar snackbar-danger snackbar-right" id="snackbar1">
+        Some text some message..
+      </div>
+      <div class="snackbar snackbar-danger" id="snackbar1">
+        Some text some message..
+      </div>
+    </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=4px&ph=4px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%250A%2520%2520id%253D%2522openSnack%2522%250A%2520%2520class%253D%2522btn%2520btn-primary%2522%250A%2520%2520onclick%253D%2522showSnackBar%28%27openSnack%27%252C%27snackbar1%27%29%2522%250A%253E%250A%2520%2520Show%2520Snackbar%250A%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522snackbar%2520snackbar-default%2522%2520id%253D%2522snackbar1%2522%253E%250A%2520%2520Some%2520text%2520some%2520message..%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520snackbar-success%2520snackbar-center%2522%2520id%253D%2522snackbar1%2522%253E%250A%2520%2520Some%2520text%2520some%2520message..%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520snackbar-danger%2520snackbar-right%2522%2520id%253D%2522snackbar1%2522%253E%250A%2520%2520Some%2520text%2520some%2520message..%250A%253C%252Fdiv%253E%250A"
+        style="
+          width: 100%;
+          height: 25rem;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </div>
+
+    <script src="../library/lib.js"></script>
+  </body>
+</html>
