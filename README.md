@@ -4,8 +4,8 @@
   <a href="https://feedyui.netlify.app/documentation/documentation.html" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://twitter.com/\_mr\_debugger\_" target="_blank">
-    <img alt="Twitter: \_mr\_debugger\_" src="https://img.shields.io/twitter/follow/\_mr\_debugger\_.svg?style=social" />
+  <a href="https://twitter.com/_mr_debugger_" target="_blank">
+    <img alt="Twitter: _mr_debugger_" src="https://img.shields.io/twitter/follow/_mr_debugger_.svg?style=social" />
   </a>
 </p>
 
