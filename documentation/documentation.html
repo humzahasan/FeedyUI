@@ -47,6 +47,8 @@
             <a class="list-item" href="#input-iframe"> Input</a>
             <a class="list-item" href="#list-iframe"> List</a>
             <a class="list-item" href="#nav-iframe"> Navigation</a>
+            <a class="list-item" href="#snackbar-iframe"> Snackbar</a>
+
             <hr />
             <a class="list-item" href="#typography-iframe"> Typography</a>
             <a class="list-item" href="#grid-iframe"> Grid Layout</a>
@@ -129,6 +131,15 @@
         ></iframe>
         <iframe
           loading="lazy"
+          id="snackbar-iframe"
+          src="./snackbar.html"
+          frameborder="0"
+          scrolling="no"
+          onload="resizeIframe(this)"
+        ></iframe>
+
+        <iframe
+          loading="lazy"
           id="typography-iframe"
           src="./textstyle.html"
           frameborder="0"
@@ -145,6 +156,7 @@
         ></iframe>
       </main>
     </div>
+    <script src="../library/lib.js"></script>
     <script>
       function resizeIframe(obj) {
         obj.style.height =
