@@ -1,0 +1,50 @@
+.nav-header {
+  background-color: var(--bg-light-color);
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.nav-toggle-btn > i {
+  padding: 1rem;
+  display: none;
+  font-size: 2rem;
+}
+
+.toggle-visible > i {
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--text-dark-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+.nav-center {
+  justify-content: space-evenly;
+  width: 100%;
+}
