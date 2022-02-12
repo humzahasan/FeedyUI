@@ -136,26 +136,27 @@
 
 .card-horizontal {
   flex-direction: row;
-  /* width: auto; */
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
 }
 
 .card-horizontal .card-media {
-  margin: 0.25rem;
+  max-width: 15rem;
+  max-height: 15rem;
+  overflow: hidden;
 }
 
-.card-horizontal .card-media > img {
-  width: 10rem;
+.card-action {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
 }
 
-.card-action-horizontal {
-  flex-grow: 1;
-  align-self: center;
+.card-action > i {
+  margin: 0.5rem;
 }
 
-.card-action-horizontal i {
-  font-size: 2rem;
-}
-
-.card-action-horizontal i:hover {
-  color: var(--primary-color);
+.card-action.card-action-stacked {
+  flex-direction: column;
 }
