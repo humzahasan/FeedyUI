@@ -6,6 +6,10 @@
   font-weight: 600;
 }
 
+.btn > a {
+  text-decoration: none;
+  color: inherit;
+}
 .btn:hover {
   box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.986);
   cursor: pointer;
@@ -46,6 +50,9 @@
 
 .btn-outline {
   background-color: rgb(255, 255, 255);
+}
+
+.btn-outline a {
 }
 
 .btn-outline.btn-primary {
