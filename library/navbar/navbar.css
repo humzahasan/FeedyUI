@@ -65,7 +65,13 @@
 
 .navbar-right .navbar-links {
   justify-content: flex-end;
+  margin-right: 2rem;
   align-items: center;
+}
+
+.item-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 800px) {
