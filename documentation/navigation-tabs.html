@@ -20,92 +20,97 @@
         Nav Bar provides content and actions related to the current screen. It's
         used for branding, screen titles, navigation, and actions.
       </p>
-      <p class="md-text">Basic Nav</p>
+
+      <p class="md-text">Default Responsive Navbar</p>
       <div class="basic-nav-section">
-        <header class="nav-header">
-          <nav class="nav-bar">
-            <div class="nav-img">
+        <header class="navbar-header">
+          <nav class="navbar">
+            <div class="navbar-head">
+              <div class="navbar-toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars"></i>
+              </div>
               <a href="/"
                 ><img class="nav-logo" src="./assets/logo.png" alt="logo"
               /></a>
+            </div>
+            <div class="navbar-items">
+              <ul class="navbar-links">
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Home </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Wishlist </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Cart </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <p class="md-text">Centered Responsive Navbar</p>
+      <div class="basic-nav-section">
+        <header class="navbar-header">
+          <nav class="navbar">
+            <div class="navbar-head">
+              <div class="navbar-toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars"></i>
+              </div>
+              <a href="/"
+                ><img class="nav-logo" src="./assets/logo.png" alt="logo"
+              /></a>
+            </div>
+            <div class="navbar-items navbar-right">
+              <ul class="navbar-links">
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Home </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Wishlist </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Cart </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <p class="md-text">Spaced Out Responsive Navbar</p>
+      <div class="basic-nav-section">
+        <header class="navbar-header">
+          <nav class="navbar">
+            <div class="navbar-head">
+              <div class="navbar-toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars"></i>
+              </div>
+              <a href="/"
+                ><img class="nav-logo" src="./assets/logo.png" alt="logo"
+              /></a>
+            </div>
+            <div class="navbar-items navbar-spaced-out">
+              <ul class="navbar-links">
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Home </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Wishlist </a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link"> Cart </a>
+                </li>
+              </ul>
             </div>
           </nav>
         </header>
       </div>
 
-      <p class="md-text">Right Nav Links</p>
-      <div class="basic-nav-section">
-        <header class="nav-header">
-          <nav class="nav-bar">
-            <div class="nav-toggle-btn">
-              <i class="fas fa-bars"></i>
-            </div>
-            <div class="nav-img">
-              <a href="/"
-                ><img class="nav-logo" src="./assets/logo.png" alt="logo"
-              /></a>
-            </div>
-            <ul class="nav-links nav-right">
-              <li class="nav-item"><a href="#" class="nav-link"> Home </a></li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"> Wishlist </a>
-              </li>
-              <li class="nav-item"><a href="#" class="nav-link"> Cart </a></li>
-            </ul>
-          </nav>
-        </header>
-      </div>
-
-      <p class="md-text">Center Nav Links</p>
-      <div class="basic-nav-section">
-        <header class="nav-header">
-          <nav class="nav-bar">
-            <div class="nav-toggle-btn">
-              <i class="fas fa-bars"></i>
-            </div>
-            <div class="nav-img">
-              <a href="/"
-                ><img class="nav-logo" src="./assets/logo.png" alt="logo"
-              /></a>
-            </div>
-            <ul class="nav-links nav-center">
-              <li class="nav-item"><a href="#" class="nav-link"> Home </a></li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"> Wishlist </a>
-              </li>
-              <li class="nav-item"><a href="#" class="nav-link"> Cart </a></li>
-            </ul>
-          </nav>
-        </header>
-      </div>
-
-      <p class="md-text">Toggle Nav</p>
-      <div class="basic-nav-section">
-        <header class="nav-header">
-          <nav class="nav-bar">
-            <div class="nav-toggle-btn toggle-visible">
-              <i class="fas fa-bars"></i>
-            </div>
-            <div class="nav-img">
-              <a href="/"
-                ><img class="nav-logo" src="./assets/logo.png" alt="logo"
-              /></a>
-            </div>
-            <ul class="nav-links nav-right">
-              <li class="nav-item"><a href="#" class="nav-link"> Home </a></li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"> Wishlist </a>
-              </li>
-              <li class="nav-item"><a href="#" class="nav-link"> Cart </a></li>
-            </ul>
-          </nav>
-        </header>
-      </div>
       <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=4px&ph=4px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522nav-header%2522%253E%250A%2520%2520%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-toggle-btn%2520toggle-visible%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cimg%2520class%253D%2522nav-logo%2522%2520src%253D%2522.%252Fassets%252Flogo.png%2522%2520alt%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-links%2520nav-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Home%2520%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Wishlist%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Cart%2520%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=25px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navbar-header%2522%253E%250A%2520%2520%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-head%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-toggle-btn%2522%2520id%253D%2522toggleBtn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cimg%2520class%253D%2522nav-logo%2522%2520src%253D%2522.%252Fassets%252Flogo.png%2522%2520alt%253D%2522logo%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navbar-items%2520navbar-spaced-out%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522navbar-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navbar-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Home%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navbar-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Wishlist%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navbar-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253E%2520Cart%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
         style="
           width: 100%;
-          height: 27rem;
+          height: 572px;
           border: 0;
           transform: scale(1);
           overflow: hidden;
@@ -114,5 +119,14 @@
       >
       </iframe>
     </div>
+    <script>
+      document.querySelectorAll("#toggleBtn").forEach((item) =>
+        item.addEventListener("click", () => {
+          console.log("Hello");
+          let navMenu = document.querySelector(".navbar-items");
+          navMenu.classList.toggle("navbar-items-responsive");
+        })
+      );
+    </script>
   </body>
 </html>
