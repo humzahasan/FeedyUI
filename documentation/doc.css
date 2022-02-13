@@ -68,6 +68,16 @@
   margin: 1rem;
 }
 
+.cb-rb-ex {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.cb-rb-ex > div {
+  margin: 2rem;
+}
+
 .card-overall-section {
   display: flex;
   align-items: center;
