@@ -107,6 +107,14 @@
   font-weight: 700;
 }
 
+.card-text {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: space-evenly;
+}
+
 .card-subtitle {
   font-size: 1.25rem;
   font-weight: 500;
@@ -144,8 +152,10 @@
 
 .card-horizontal-lg {
   /* overflow: hidden; */
+  justify-content: space-around;
   height: 15rem;
-  width: 100%;
+  width: auto;
+  align-items: center;
 }
 
 .card-horizontal-lg .card-media,
@@ -157,7 +167,7 @@
 }
 
 .card-horizontal-lg .card-text {
-  max-width: 50%;
+  max-width: 15rem;
 }
 
 .card-action {
