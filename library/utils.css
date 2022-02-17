@@ -137,6 +137,16 @@
   flex-direction: column;
 }
 
+.flex-column {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .m-left-auto {
   margin-left: auto;
 }

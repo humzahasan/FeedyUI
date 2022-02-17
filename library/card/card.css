@@ -1,6 +1,5 @@
 .card {
   width: 20rem;
-  /* height: 35rem; */
   padding: 1rem;
   margin: 2rem;
   display: flex;
@@ -8,27 +7,6 @@
   justify-content: space-evenly;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
-}
-
-.card-sm {
-  height: 15rem;
-}
-
-.card-md {
-  height: 25rem;
-}
-
-.card-lg {
-  height: 35rem;
-}
-
-.card-xl {
-  height: 45rem;
-}
-
-.card-auto {
-  width: auto;
-  height: auto;
 }
 
 .card-square {
@@ -57,13 +35,31 @@
   position: relative;
 }
 
-.card-badge-content {
+.card-badge-content,
+.card-badge-icon {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 10;
   padding: 0.25rem;
   background-color: var(--primary-color);
+}
+
+.card-badge-icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  font-size: 1.5rem;
+}
+
+.card-badge-content:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+.card-badge-icon > i:hover {
+  color: var(--danger-color);
 }
 
 .card-media {
@@ -126,6 +122,10 @@
   justify-content: space-evenly;
 }
 
+.card-action-column {
+  display: flex;
+  flex-direction: column;
+}
 .card-action > i {
   font-size: 2rem;
 }
@@ -134,17 +134,30 @@
   color: var(--primary-color);
 }
 
-.card-horizontal {
+.card-horizontal,
+.card-horizontal-lg {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 30rem;
+  width: 25rem;
 }
 
+.card-horizontal-lg {
+  /* overflow: hidden; */
+  height: 15rem;
+  width: 100%;
+}
+
+.card-horizontal-lg .card-media,
 .card-horizontal .card-media {
-  max-width: 15rem;
-  max-height: 15rem;
+  margin-right: 0.5rem;
+  max-width: 10rem;
+  max-height: 10rem;
   overflow: hidden;
+}
+
+.card-horizontal-lg .card-text {
+  max-width: 50%;
 }
 
 .card-action {
