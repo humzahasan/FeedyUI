@@ -13,13 +13,13 @@
   </a>
 </p>
 
-## ✨ [Feedy UI](https://feedyui.netlify.app/documentation/documentation.html)
+# ✨Live Website - [Feedy UI](https://feedyui.netlify.app/documentation/documentation.html)
 
-> FeedyUI is a lightweight, reliable and fast component library build with HTML, CSS and Javascript.
+## FeedyUI is a lightweight, reliable and fast component library build with HTML, CSS and Javascript.
 
 <br>
 
-## **Getting Started**
+# **Getting Started**
 
 In order to start using the component library, you simply need to include the library's CSS file in your local html file as follows:
 
@@ -35,73 +35,154 @@ Or if you want to simply use the library inside a CSS file the following can als
 
 <br>
 
+# **Components**
+
+- ## [Alert](https://feedyui.netlify.app/documentation/documentation.html#alert-iframe)
+
+  An alert displays a short, important message in a way that attracts the
+  user's attention without interrupting the user's task.
+
+  In FeedyUI, we offer two types of alert:
+
+  - Filled Alerts
+  - Outline Alerts
+    <br>
+
+- ## [Avatar](https://feedyui.netlify.app/documentation/documentation.html#avatar-iframe)
+
+  Avatars should focus on a subject, using a simple background. They can
+  represent a user or a brand (with a logo or branded graphic).
+
+  In FeedyUI, we offer avatar;s in two format:
+
+  - Letter based Avatar
+  - Picture avatar
+
+- ## [Badge](https://feedyui.netlify.app/documentation/documentation.html#badge-iframe)
+
+  Badge generates a small badge to the top-right of its child(ren).
+
+  For Badges in FeedyUI, the catergoires are:
+
+  - Badge On Icon
+  - Badge On Avatar
+
+- ## [Button](https://feedyui.netlify.app/documentation/documentation.html#button-iframe)
+
+  Buttons allow users to take actions, and make choices, with a single
+  tap.
+
+  For Buttons in FeedyUI, we get four major varaiants:
+
+  - Solid Button
+  - Outline Button
+  - Floating Action Button
+  - Icon Button
+
+- ## [Card](https://feedyui.netlify.app/documentation/documentation.html#card-iframe)
+
+  Cards contain content and actions about a single subject.Elements, like
+  text and images, should be placed on them in a way that clearly
+  indicates hierarchy.
+
+  In FeedyUI, Cards have been divided into two primary category:
+
+  - Horizontally Stacked Card
+  - Vertically Stacked card
+
+- ## [Image](https://feedyui.netlify.app/documentation/documentation.html#image-iframe)
+
+  Images are most integral part of websites these days. Responsive images
+  help user get more visual detail irrespective of device.
+
+  Since 90% of the web are images, we just can ignore the responsive images we prodvide in FeedyUI:
+
+  - Responsive Circular Image
+  - Responsive Squared Image
+  - Image with overlay
+
+- ## [Input](https://feedyui.netlify.app/documentation/documentation.html#input-iframe)
+
+  Input is one the primary source of user experience where we offer different types of option to take input from use such as text, checkbox, radio button.
+
+  FeedyUI provides a range of input for user interaction, such as:
+
+  - Outline Input Box
+  - No Outline Input Box
+  - Input Box With Label
+  - Checkbox
+  - Radio Button
+  - Counter
+
+- ## [List](https://feedyui.netlify.app/documentation/documentation.html#list-iframe)
+
+  Lists are a continuous group of text or images. They are composed of
+  items containing primary and supplemental actions, which are represented
+  by icons and text.
+
+  FeedyUI simply provides two amazing type of list representaion:
+
+  - Icon List
+  - Action List
+
+- ## [Tabs](https://feedyui.netlify.app/documentation/documentation.html#nav-iframe)
+
+  Nav Bar provides content and actions related to the current screen. It's
+  used for branding, screen titles, navigation, and actions.
+
+  Navigation always plays a key role in all the website and thus we have:
+
+  - Default Responsive Navbar
+  - Centered Responsive Navbar
+  - Spaced Out Responsive Navbar
+  - Three Part Responsive Navbar
+
+- ## [Rating](https://feedyui.netlify.app/documentation/documentation.html#rating-iframe)
+
+  Ratings provide insight regarding others' opinions and experiences, and
+  can allow the user to submit a rating of their own.
+
+- ## [Snackbar](https://feedyui.netlify.app/documentation/documentation.html#snackbar-iframe)
+
+  Snackbars contain a single line of text directly related to the operation performed. They may contain a text action, but no icons. You can use them to display notifications.
+
 ## **Systems**
 
 - ## [Colors](#colors)
 
+  We have an interesting range of colors at your disposal.
+
+  - primary-color: #fc8019;
+  - primary-color-light: #f79c52c5;
+  - secondary-color: #fc7f197c;
+  - text-light-color: #ebeef7;
+  - text-dark-color: #0b0c13;
+  - bg-light-color: #f7eee9;
+  - bg-dark-color: #35302c;
+  - light-color: #e6955454;
+  - success-color: #00800080;
+  - danger-color: #ff000080;
+  - white-color: #ffff;
+  - black-color: #0000;
+
 - ## [Grid](https://feedyui.netlify.app/documentation/documentation.html#grid-iframe)
 
-![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiMjMzNDA0MTctYWFjNi00OTAxLTkwNWUtOTM3YTRhYTEzZTg1IiwiZGVwbG95X2lkIjoiNjIwN2JlZGFjNmM0YjkwMDA3ZDkzZjJiIiwiaWQiOiI1MzQ5Y2RmYS0xODJiLTQzNzUtOTA4NC0zOTM2NDFkZDQ5MDAifQ==)
+  Grids are one of the best ways to create responsive layouts for your website.
+
+  FeedyUI offers two frequenlty used grid layout system:
+
+  - Two Item Grid
+    - Equal Grid
+    - 30:70 Grid
+  - Three Item Grid
+    - Euqal Grid
+    - 15:70:15 Grid
 
 - ## [Typography](https://feedyui.netlify.app/documentation/documentation.html#typography-iframe)
 
-![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiMjMzNDA0MTctYWFjNi00OTAxLTkwNWUtOTM3YTRhYTEzZTg1IiwiZGVwbG95X2lkIjoiNjIwN2JlZGFjNmM0YjkwMDA3ZDkzZjJiIiwiaWQiOiJjYzMwYmJhMi1hMmNkLTQ3Y2QtODQ0Zi0xMWMwZGMwNGQ0YzEifQ==)
+  Typography Use typography to present your design and content as clearly and efficiently as possible.
 
 <br>
-
-## **Components**
-
-- ## [Alert](https://feedyui.netlify.app/documentation/documentation.html#alert-iframe)
-
-![alert](./screenshots/alert2.PNG)
-
-- ## [Avatar](https://feedyui.netlify.app/documentation/documentation.html#avatar-iframe)
-
-![avatar](./screenshots/avatar.PNG)
-![avatar](./screenshots/avatar2.PNG)
-
-- ## [Badge](https://feedyui.netlify.app/documentation/documentation.html#badge-iframe)
-
-![badge](./screenshots/badge.PNG)
-![badge](./screenshots/badge2.PNG)
-
-- ## [Button](https://feedyui.netlify.app/documentation/documentation.html#button-iframe)
-
-![button](./screenshots/button.PNG)
-![button](./screenshots/button2.PNG)
-![button](./screenshots/button3.PNG)
-
-- ## [Card](https://feedyui.netlify.app/documentation/documentation.html#card-iframe)
-
-![card](./screenshots/card.PNG)
-![card](./screenshots/card2.PNG)
-
-- ## [Image](https://feedyui.netlify.app/documentation/documentation.html#image-iframe)
-
-![image](./screenshots/image.PNG)
-![image](./screenshots/image2.PNG)
-
-- ## [Input](https://feedyui.netlify.app/documentation/documentation.html#input-iframe)
-
-![input](./screenshots/input1.PNG)
-![input](./screenshots/input2.PNG)
-
-- ## [List](https://feedyui.netlify.app/documentation/documentation.html#list-iframe)
-
-![list](./screenshots/list.PNG)
-![list2](./screenshots/list2.PNG)
-
-- ## [Tabs](https://feedyui.netlify.app/documentation/documentation.html#nav-iframe)
-
-![nav](./screenshots/nav.PNG)
-
-- ## [Rating](https://feedyui.netlify.app/documentation/documentation.html#rating-iframe)
-
-![rating](./screenshots/rating.PNG)
-
-- ## [Snackbar](https://feedyui.netlify.app/documentation/documentation.html#snackbar-iframe)
-
-![snack](./screenshots/snack.PNG)
 
 ## Author
 
