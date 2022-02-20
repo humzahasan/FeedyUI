@@ -15,3 +15,19 @@ function showSnackBar(btnId, snackbarId) {
     });
   });
 }
+
+function increment(qt) {
+  let qnty = document.getElementById(qt).value;
+  qnty = Number(qnty) + 1;
+  document.getElementById(qt).value = qnty;
+}
+
+function decrement(qt) {
+  let minQnty = document.getElementById(qt).value;
+  if (minQnty <= 0) {
+    document.getElementById(qt).value = 0;
+  } else {
+    minQnty = Number(minQnty) - 1;
+  }
+  document.getElementById(qt).value = minQnty;
+}
