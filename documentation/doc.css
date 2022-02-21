@@ -167,3 +167,43 @@
   margin: 1rem;
   padding: 1rem;
 }
+
+.doc-menu-floating {
+  position: absolute;
+  top: 5rem;
+  height: 100%;
+  width: 100%;
+
+  display: none;
+}
+
+.doc-menu-floating > .list.list-vertical {
+  margin: 0;
+}
+
+.navmenu-actionbtn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.relative-menu {
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .doc-page {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main";
+  }
+  .doc-aside {
+    display: none;
+  }
+
+  .navmenu-actionbtn {
+    display: block;
+  }
+}
