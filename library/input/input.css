@@ -170,10 +170,21 @@
 
 .input-counter button {
   font-size: 1.7rem;
-  margin: 0 10px;
-  padding: 0 10px;
+  margin: 0 1rem;
+  padding: 0 1rem;
 }
 
 .input-counter > input {
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .input-counter {
+    flex-direction: column;
+  }
+
+  .input-counter button {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
 }
