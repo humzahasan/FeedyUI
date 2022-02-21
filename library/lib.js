@@ -1,6 +1,4 @@
-console.log("YOLO");
-
-function showSnackBar(btnId, snackbarId) {
+const showSnackBar = (btnId, snackbarId) => {
   var btnGroup = document.getElementById(`${btnId}`);
   console.log(btnGroup);
   btnGroup.addEventListener("click", () => {
@@ -9,20 +7,20 @@ function showSnackBar(btnId, snackbarId) {
     snackBarEle.forEach((ele) => {
       ele.classList.add("show");
 
-      setTimeout(function () {
+      setTimeout(() => {
         ele.classList.remove("show");
       }, 3000);
     });
   });
-}
+};
 
-function increment(qt) {
+const increment = (qt) => {
   let qnty = document.getElementById(qt).value;
   qnty = Number(qnty) + 1;
   document.getElementById(qt).value = qnty;
-}
+};
 
-function decrement(qt) {
+const decrement = (qt) => {
   let minQnty = document.getElementById(qt).value;
   if (minQnty <= 0) {
     document.getElementById(qt).value = 0;
@@ -30,4 +28,13 @@ function decrement(qt) {
     minQnty = Number(minQnty) - 1;
   }
   document.getElementById(qt).value = minQnty;
-}
+};
+
+const toggleNav = () => {
+  let navMenu = document.querySelector(".doc-menu-floating");
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  if (navMenu.style.display === "" || navMenu.style.display === "none")
+    navMenu.style.display = "block";
+  else navMenu.style.display = "none";
+};
