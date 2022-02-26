@@ -153,9 +153,15 @@
     <script>
       document.querySelectorAll("#toggleBtn").forEach((item) =>
         item.addEventListener("click", () => {
-          console.log("Hello");
-          let navMenu = document.querySelector(".navbar-items");
-          navMenu.classList.toggle("navbar-items-responsive");
+          let navMenu = document.querySelector(".navbar-links");
+          if (
+            navMenu.style.display === "" ||
+            navMenu.style.display === "none"
+          ) {
+            navMenu.style.display = "block";
+          } else {
+            navMenu.style.display = "none";
+          }
         })
       );
     </script>
