@@ -32,6 +32,28 @@
   align-items: center;
 }
 
+.navbar-item {
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.navbar-item > img {
+  width: 2rem;
+  margin: 0 5px;
+}
+
+.navbar-item > a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+.navbar-item > a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 .navbar-links {
   list-style: none;
   display: flex;

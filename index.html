@@ -20,26 +20,35 @@
   </head>
   <body>
     <div class="grid-layout">
-      <header class="home-header">
-        <nav class="home-nav">
-          <a href="/"
-            ><img
-              class="home-logo"
-              src="./documentation/assets/logo.png"
-              alt="logo"
-          /></a>
-          <ul class="home-navlist">
-            <li class="home-navitem">
-              <i class="fas fa-atlas"></i>
-              <a href="./documentation/documentation.html">Documentation</a>
-            </li>
-            <li class="home-navitem">
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/humzahasan/FeedyUI/tree/development">
-                Source Code</a
-              >
-            </li>
-          </ul>
+      <header class="navbar-header home-header">
+        <nav class="navbar">
+          <div class="navbar-head">
+            <div class="navbar-toggle-btn" id="toggleBtn">
+              <img src="./documentation/assets/solidbar.svg" alt="hamburger" />
+            </div>
+            <a href="/"
+              ><img
+                class="nav-logo"
+                src="./documentation/assets/logo.png"
+                alt="logo"
+            /></a>
+          </div>
+          <div class="navbar-items navbar-right">
+            <ul class="navbar-links">
+              <li class="navbar-item">
+                <img src="./documentation/assets/document.svg" alt="docs" />
+                <a href="./documentation.html">Documentation</a>
+              </li>
+              <li class="navbar-item">
+                <img src="./documentation/assets/githubicon.svg" alt="docs" />
+                <a
+                  href="https://github.com/humzahasan/FeedyUI/tree/development"
+                >
+                  Source Code</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
       <main class="home-main">
@@ -114,5 +123,13 @@
         </h3>
       </footer>
     </div>
+    <script>
+      document.querySelectorAll("#toggleBtn").forEach((item) =>
+        item.addEventListener("click", () => {
+          let navMenu = document.querySelector(".navbar-items");
+          navMenu.classList.toggle("navbar-list-res");
+        })
+      );
+    </script>
   </body>
 </html>
