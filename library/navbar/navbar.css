@@ -74,31 +74,31 @@
   margin-right: auto;
 }
 
+.navbar-items.navbar-list-res {
+  display: block;
+}
+
 @media screen and (max-width: 800px) {
-  .navbar {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  .navbar-head {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .navbar-toggle-btn {
     display: block;
   }
 
-  .navbar-items-responsive {
-    display: none;
-    width: 100%;
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
+  .navbar-items {
+    display: none;
+  }
   .navbar-links {
     flex-direction: column;
-    margin: 0.25rem;
-    padding: 0.25rem;
-    display: none;
-  }
-
-  .navbar-item {
-    width: 100%;
     justify-content: center;
     align-items: center;
   }
