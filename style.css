@@ -14,6 +14,43 @@
   grid-area: header;
 }
 
+.home-nav {
+  background-color: #f7eee9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-navlist {
+  display: flex;
+  padding: 1rem;
+}
+
+.home-navitem {
+  margin: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.home-navitem > i {
+  margin: 0.5rem;
+}
+
+.home-navitem > a {
+  text-decoration: none;
+  color: var(--text-dark-color);
+}
+
+.home-navitem > a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  font-weight: 500;
+}
+
+.home-navitem.home-navitem-active {
+  border-bottom: 1px solid var(--primary-color);
+}
+
 .home-logo {
   height: 5rem;
   width: 5rem;
@@ -30,6 +67,7 @@
 
 .hero-image {
   min-height: 400px;
+  /* max-width: 600px; */
 }
 .home-hero-right {
   grid-area: heroRight;
@@ -85,26 +123,25 @@
   grid-area: footer;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   :root {
-    font-size: 80%;
+    font-size: 70%;
   }
   .grid-layout {
     grid-template-areas:
-      "header"
-      "main"
-      "main"
-      "footer";
+      "header header header"
+      "main main main"
+      "main main main"
+      "footer footer footer";
   }
 
   .home-hero {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;
-    grid-template-areas: "heroRight";
-  }
-  .home-hero-action {
-    margin: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "heroRight heroRight"
+      "heroRight heroRight";
   }
 
   .home-hero-left {
@@ -114,21 +151,23 @@
 
 @media screen and (max-width: 400px) {
   :root {
-    font-size: 85%;
+    font-size: 35%;
   }
   .grid-layout {
     grid-template-areas:
-      "header"
-      "main"
-      "main"
-      "footer";
+      "header header header"
+      "main main main"
+      "main main main"
+      "footer footer footer";
   }
 
   .home-hero {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;
-    grid-template-areas: "heroRight";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "heroRight heroRight"
+      "heroRight heroRight";
   }
 
   .home-hero-left {
