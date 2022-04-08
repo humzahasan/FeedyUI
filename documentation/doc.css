@@ -1,5 +1,4 @@
 @import url(../library/lib.css);
-
 .avatar-container,
 .alert-container,
 .badge-container,
@@ -155,6 +154,12 @@
 .doc-navitem.doc-navitem-active {
   border-bottom: 1px solid var(--primary-color);
 }
+.navbar-items {
+  justify-content: flex-end;
+}
+.doc-navitem > img {
+  width: 2rem;
+}
 
 .doc-logo {
   height: 5rem;
@@ -192,6 +197,10 @@
   position: relative;
 }
 
+.nav-menu-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .doc-page {
     grid-template-columns: 1fr;
@@ -199,11 +208,40 @@
       "header"
       "main";
   }
+
+  .doc-header {
+    position: sticky;
+    top: 0;
+  }
+
   .doc-aside {
     display: none;
   }
 
+  .doc-logo-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .doc-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
   .navmenu-actionbtn {
     display: block;
+  }
+
+  .nav-menu-mobile {
+    display: flex;
+  }
+
+  .nav-menu-mobile > a {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .navbar-items {
+    display: none;
   }
 }
