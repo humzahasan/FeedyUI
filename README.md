@@ -113,6 +113,7 @@ Or if you want to simply use the library inside a CSS file the following can als
   - Checkbox
   - Radio Button
   - Counter
+  - Slider
 
 - ## [List](https://feedyui.netlify.app/documentation/documentation.html#list-iframe)
 
@@ -122,8 +123,17 @@ Or if you want to simply use the library inside a CSS file the following can als
 
   FeedyUI simply provides two amazing type of list representaion:
 
+  - Sub level menu/list
   - Icon List
   - Action List
+
+  Sublevel menu included which act as nested menu. With Primary item consisting of "n" numbers of child item
+
+- ## [Modal](https://feedyui.netlify.app/documentation/documentation.html#list-iframe)
+
+  The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+
+  FeedyUI simply provides a simple modal with 3 sections namely for header, body and footer.
 
 - ## [Tabs](https://feedyui.netlify.app/documentation/documentation.html#nav-iframe)
 
