@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./doc.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="modal-container">
+      <h1 class="lg-title">Modal</h1>
+      <p class="sm-text">
+        The modal component provides a solid foundation for creating dialogs,
+        popovers, lightboxes, or whatever else.
+      </p>
+      <div class="modal-section">
+        <button class="btn btn-primary" id="modal-btn">Open Modal</button>
+        <div class="modal" id="my-modal">
+          <section class="modal-content">
+            <section class="modal-header">
+              <p class="sm-text">It's Tasty and I know it!</p>
+              <img
+                src="./assets/close.svg"
+                alt=""
+                class="cross-btn"
+                id="modal-close-btn"
+              />
+            </section>
+            <section class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              reiciendis, consectetur commodi eum obcaecati laudantium
+              necessitatibus consequuntur possimus soluta sint unde, at
+              cupiditate aliquid dolorum repellendus exercitationem, deserunt
+              odit similique.
+            </section>
+            <section class="modal-footer">Order Now</section>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script>
+      let openBtn = document.getElementById("modal-btn");
+      let model = document.getElementById("my-modal");
+      let closeBtn = document.getElementById("modal-close-btn");
+      openBtn.addEventListener("click", () => {
+        model.style.display = "block";
+      });
+
+      closeBtn.addEventListener("click", () => {
+        model.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
