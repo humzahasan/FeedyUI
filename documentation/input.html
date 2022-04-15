@@ -172,18 +172,30 @@
         sandbox="allow-scripts allow-same-origin"
       >
       </iframe>
-      <p class="md-text">Increment/Decrement Counter</p>
-      <div class="input-box-section">
-        <div class="input-counter">
-          <button class="btn btn-primary">
-            <a onclick="increment('quantity')"> +</a>
-          </button>
-          <input type="number" id="quantity" value="1" />
-          <button class="btn btn-primary">
-            <a onclick="decrement('quantity')"> -</a>
-          </button>
-        </div>
+      <p class="md-text">Input Slider</p>
+      <div className="input-box-section">
+        <p className="sm-text">Price</p>
+        <input
+          type="range"
+          list="tickmarks"
+          oninput="num.value = this.value"
+          class="slider"
+        />
+        <output id="num">0</output>
       </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=5px&ph=6px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%250A%2520%2520type%253D%2522range%2522%250A%2520%2520list%253D%2522tickmarks%2522%250A%2520%2520oninput%253D%2522num.value%2520%253D%2520this.value%2522%250A%2520%2520class%253D%2522slider%2522%250A%252F%253E%250A%253Coutput%2520id%253D%2522num%2522%253E0%253C%252Foutput%253E"
+        style="
+          width: 100%;
+          height: 16rem;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+    </div>
     <script src="../library/lib.js"></script>
   </body>
 </html>

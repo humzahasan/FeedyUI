@@ -27,3 +27,19 @@
   display: flex;
   flex-direction: column;
 }
+
+.list-sub {
+  text-decoration: none;
+  color: var(--text-dark-color);
+  padding: 1rem;
+}
+
+.list-sub-item {
+  text-decoration: none;
+  color: var(--text-dark-color);
+  padding: 1rem 0;
+}
+
+.list-sub {
+  display: none;
+}

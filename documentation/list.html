@@ -31,12 +31,48 @@
         </div>
       </div> -->
 
-      <p class="md-text">Icon List</p>
+      <p class="md-text">Icon List - with Submenu</p>
       <div class="normal-list-section">
         <div class="list">
-          <p class="list-item"><i class="fas fa-pizza-slice"></i> Pizza</p>
-          <p class="list-item"><i class="fas fa-hamburger"></i> Burger</p>
-          <p class="list-item"><i class="fas fa-ice-cream"></i> Ice Cream</p>
+          <p class="list-item list-item-subitem" id="item-btn">
+            <i class="fas fa-pizza-slice"></i> Pizza<i
+              class="fa fa-caret-down"
+            ></i>
+          </p>
+          <div class="list-sub">
+            <p class="list-sub-item">
+              <i class="fas fa-hamburger"></i> Veg Pizza
+            </p>
+            <p class="list-sub-item">
+              <i class="fas fa-ice-cream"></i> Non veg Pizza
+            </p>
+          </div>
+          <p class="list-item list-item-subitem">
+            <i class="fas fa-hamburger"></i> Burger<i
+              class="fa fa-caret-down"
+            ></i>
+          </p>
+          <div class="list-sub">
+            <p class="list-sub-item">
+              <i class="fas fa-hamburger"></i> Veg Burger
+            </p>
+            <p class="list-sub-item">
+              <i class="fas fa-ice-cream"></i> Non veg Burger
+            </p>
+          </div>
+          <p class="list-item list-item-subitem">
+            <i class="fas fa-ice-cream"></i> Ice Cream<i
+              class="fa fa-caret-down"
+            ></i>
+          </p>
+          <div class="list-sub">
+            <p class="list-sub-item">
+              <i class="fas fa-hamburger"></i> Vanilla
+            </p>
+            <p class="list-sub-item">
+              <i class="fas fa-ice-cream"></i> Chocolate
+            </p>
+          </div>
         </div>
       </div>
       <iframe
@@ -74,5 +110,21 @@
       >
       </iframe>
     </div>
+    <script>
+      var dropdown = document.getElementsByClassName("list-item-subitem");
+      var i;
+
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+          this.classList.toggle("active-list");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
