@@ -174,6 +174,7 @@ Or if you want to simply use the library inside a CSS file the following can als
   - danger-color: #ff000080;
   - white-color: #ffff;
   - black-color: #0000;
+  - hover-color : #957d7059;
 
   - ## [Frequently Used Utility Class](#fuuc)
 

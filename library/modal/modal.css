@@ -1,7 +1,6 @@
 .modal {
   display: none;
   background-color: #00000034;
-  /* z-index: 99; */
   position: absolute;
   top: 0;
   left: 0;
@@ -19,13 +18,10 @@
 
 .modal-content {
   width: 50%;
-  height: auto;
   margin: auto;
-
   display: flex;
   flex-direction: column;
   background-color: white;
-  /* z-index: 999; */
 }
 
 .modal-header {
