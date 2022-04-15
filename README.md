@@ -175,6 +175,20 @@ Or if you want to simply use the library inside a CSS file the following can als
   - white-color: #ffff;
   - black-color: #0000;
 
+  - ## [Frequently Used Utility Class](#fuuc)
+
+  Some of the frequently used utility classes we offer are:
+
+  - flex-center-row
+  - flex-center-column
+  - flex-column
+  - flex-row
+  - m-left-auto
+  - m-right-auto
+  - margin-auto
+  - width-100
+  - height-100
+
 - ## [Grid](https://feedyui.netlify.app/documentation/documentation.html#grid-iframe)
 
   Grids are one of the best ways to create responsive layouts for your website.

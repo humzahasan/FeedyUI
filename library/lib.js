@@ -1,6 +1,6 @@
 const showSnackBar = (btnId, snackbarId) => {
   var btnGroup = document.getElementById(`${btnId}`);
-  console.log(btnGroup);
+
   btnGroup.addEventListener("click", () => {
     let snackBarEle = document.querySelectorAll(`#${snackbarId}`);
 
